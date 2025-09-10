@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "4cc62238-5f25-40de-be8f-24b24c94c8dc",
+		"name": "Requests JSONplaceholder",
+		"description": "Here are the resquest I do for the API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28726776"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"notitle\": \"New me today\",\n  \"body\": \"I know what I did wrong\",\n  \"userID\" : \"one\"\n}\n\n"
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/users",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Users",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"notitle\": \"New me today\",\n  \"body\": \"I know what I did wrong\",\n  \"userID\" : \"one\"\n}\n\n"
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/users",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Posts",
+			"item": [
+				{
+					"name": "Posts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"this is invalid\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"notitle\": \"New me today\",\n  \"body\": \"I know what I did wrong\",\n  \"userID\" : \"one\"\n}\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"notitle\": \"New me today\",\n  \"body\": \"I know what I did wrong\",\n  \"userID\" : \"one\"\n}\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Posts",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"notitle\": \"New me today\",\n  \"body\": \"I know what I did wrong\",\n  \"userID\" : \"one\"\n}\n\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
